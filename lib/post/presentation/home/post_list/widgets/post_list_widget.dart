@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_ddd/post/application/home/post_list_bloc/post_list_bloc.dart';
 import 'package:flutter_ddd/post/presentation/core/widgets/error_retry_widget.dart';
-import 'package:flutter_ddd/post/presentation/home/post_list/bloc/post_list_bloc.dart';
 import 'package:flutter_ddd/post/presentation/post_detail/post_detail_page.dart';
 
 import '../../../../../injections.dart';

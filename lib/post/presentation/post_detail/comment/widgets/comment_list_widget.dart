@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_ddd/post/application/post_detail/comment_bloc/comment_bloc.dart';
 import 'package:flutter_ddd/post/presentation/core/widgets/error_retry_widget.dart';
-import 'package:flutter_ddd/post/presentation/post_detail/comment/bloc/comment_bloc.dart';
 
 import '../../../../../injections.dart';
 

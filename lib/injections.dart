@@ -1,9 +1,10 @@
 import 'package:flutter_ddd/post/infrastructure/data_sources/api_data_source.dart';
 import 'package:flutter_ddd/post/infrastructure/post_repository.dart';
-import 'package:flutter_ddd/post/presentation/home/post_list/bloc/post_list_bloc.dart';
-import 'package:flutter_ddd/post/presentation/post_detail/comment/bloc/comment_bloc.dart';
-import 'package:flutter_ddd/post/presentation/post_detail/detail/bloc/post_detail_bloc.dart';
 import 'package:get_it/get_it.dart';
+
+import 'post/application/home/post_list_bloc/post_list_bloc.dart';
+import 'post/application/post_detail/comment_bloc/comment_bloc.dart';
+import 'post/application/post_detail/post_detail_bloc/post_detail_bloc.dart';
 
 
 final serviceLocator = GetIt.instance;
