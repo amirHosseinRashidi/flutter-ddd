@@ -10,10 +10,10 @@ import 'post/application/post_detail/post_detail_bloc/post_detail_bloc.dart';
 final serviceLocator = GetIt.instance;
 
 Future<void> init() async {
-  catalogDependencies();
+  postDependencies();
 }
 
-Future<void> catalogDependencies() async {
+Future<void> postDependencies() async {
   serviceLocator.registerFactory(() => CommentBloc(repository: serviceLocator()));
 
   serviceLocator.registerFactory(() => PostDetailBloc(repository: serviceLocator()));
